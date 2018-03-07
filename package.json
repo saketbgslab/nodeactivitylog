@@ -1,0 +1,30 @@
+{
+  "name": "nodeactivitylog",
+  "version": "1.0.0",
+  "description": "azure activity log using node js sdk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saketbgslab/nodeactivitylog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "azure",
+    "activity",
+    "log"
+  ],
+  "author": "saketbgslab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saketbgslab/nodeactivitylog/issues"
+  },
+  "homepage": "https://github.com/saketbgslab/nodeactivitylog#readme",
+  "dependencies": {
+    "azure-arm-monitor": "^1.0.1-preview",
+    "azure-arm-resource": "^3.1.1-preview",
+    "ms-rest-azure": "^2.5.4"
+  }
+}
