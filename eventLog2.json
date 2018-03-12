@@ -1,0 +1,320 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520591293",
+                    "nbf": "1520591293",
+                    "exp": "1520595193",
+                    "aio": "Y2NgYPgWc9++zroioP3o+fl69dusAA==",
+                    "appid": "8dc4ba32-9c0f-4bc6-a72c-927fa48c9e52",
+                    "appidacr": "1",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "CIQv0CeJyUWCDk07524GAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Cache/Redis/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Cache/Redis/ssltest123"
+                },
+                "eventChannels": "Operation",
+                "caller": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                "eventDataId": "38272a40-690a-4f4d-b98b-0ce2654df042",
+                "correlationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Cache",
+                    "localizedValue": "Microsoft.Cache"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Cache/Redis/ssltest123",
+                "operationId": "24c5bdab-e5ca-4255-a5f3-a2f96087ceaf",
+                "operationName": {
+                    "value": "Microsoft.Cache/Redis/write",
+                    "localizedValue": "Update Redis Cache"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T10:43:28.9418171Z",
+                "submissionTimestamp": "2018-03-09T10:43:50.0909987Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520591293",
+                    "nbf": "1520591293",
+                    "exp": "1520595193",
+                    "aio": "Y2NgYPgWc9++zroioP3o+fl69dusAA==",
+                    "appid": "8dc4ba32-9c0f-4bc6-a72c-927fa48c9e52",
+                    "appidacr": "1",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "CIQv0CeJyUWCDk07524GAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": "07c3005f-28fd-4ccb-9b21-be06e045144e"
+                },
+                "authorization": {
+                    "action": "Microsoft.Cache/Redis/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Cache/Redis/ssltest123"
+                },
+                "eventChannels": "Operation",
+                "caller": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                "eventDataId": "466120d1-2f3c-44ec-8ded-10bad0364722",
+                "correlationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "1fdc9d85-0937-4dce-a25e-da2578c12f12",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Cache",
+                    "localizedValue": "Microsoft.Cache"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Cache/Redis/ssltest123",
+                "operationId": "419831af-42f0-4243-b50e-b267dbb37cfd",
+                "operationName": {
+                    "value": "Microsoft.Cache/Redis/write",
+                    "localizedValue": "Update Redis Cache"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-09T10:33:31.6596908Z",
+                "submissionTimestamp": "2018-03-09T10:33:50.0906536Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520591293",
+                    "nbf": "1520591293",
+                    "exp": "1520595193",
+                    "aio": "Y2NgYPgWc9++zroioP3o+fl69dusAA==",
+                    "appid": "8dc4ba32-9c0f-4bc6-a72c-927fa48c9e52",
+                    "appidacr": "1",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "CIQv0CeJyUWCDk07524GAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Cache/Redis/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Cache/Redis/ssltest123"
+                },
+                "eventChannels": "Operation",
+                "caller": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                "eventDataId": "e3862ff3-9ecc-48af-a951-87b9b19f4734",
+                "correlationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "1fdc9d85-0937-4dce-a25e-da2578c12f12",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Cache",
+                    "localizedValue": "Microsoft.Cache"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Cache/Redis/ssltest123",
+                "operationId": "419831af-42f0-4243-b50e-b267dbb37cfd",
+                "operationName": {
+                    "value": "Microsoft.Cache/Redis/write",
+                    "localizedValue": "Update Redis Cache"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T10:33:24.465637Z",
+                "submissionTimestamp": "2018-03-09T10:33:40.1280694Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520591293",
+                    "nbf": "1520591293",
+                    "exp": "1520595193",
+                    "aio": "Y2NgYPgWc9++zroioP3o+fl69dusAA==",
+                    "appid": "8dc4ba32-9c0f-4bc6-a72c-927fa48c9e52",
+                    "appidacr": "1",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "CIQv0CeJyUWCDk07524GAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": null
+                },
+                "authorization": {
+                    "action": "Microsoft.Resources/deployments/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Resources/deployments/testing72225086693651"
+                },
+                "eventChannels": "Operation",
+                "caller": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                "eventDataId": "92841342-8a84-431a-b713-89ea9a29ec15",
+                "correlationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "42ca69e5-eda9-41cb-ae84-8e6b7d5803af",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Resources",
+                    "localizedValue": "Microsoft Resources"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Resources/deployments/testing72225086693651",
+                "operationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "operationName": {
+                    "value": "Microsoft.Resources/deployments/write",
+                    "localizedValue": "Microsoft.Resources/deployments/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-09T10:33:19.8618562Z",
+                "submissionTimestamp": "2018-03-09T10:33:39.9194224Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520591293",
+                    "nbf": "1520591293",
+                    "exp": "1520595193",
+                    "aio": "Y2NgYPgWc9++zroioP3o+fl69dusAA==",
+                    "appid": "8dc4ba32-9c0f-4bc6-a72c-927fa48c9e52",
+                    "appidacr": "1",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "CIQv0CeJyUWCDk07524GAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Resources/deployments/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Resources/deployments/testing72225086693651"
+                },
+                "eventChannels": "Operation",
+                "caller": "09b756da-1f80-46c0-8f8f-d95949a31758",
+                "eventDataId": "69a4d95c-d6e7-4690-9537-a6c7b748b1f9",
+                "correlationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "42ca69e5-eda9-41cb-ae84-8e6b7d5803af",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Resources",
+                    "localizedValue": "Microsoft Resources"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Resources/deployments/testing72225086693651",
+                "operationId": "511a2b60-6af7-4d49-b726-15c399c8c3f7",
+                "operationName": {
+                    "value": "Microsoft.Resources/deployments/write",
+                    "localizedValue": "Microsoft.Resources/deployments/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T10:33:13.8148228Z",
+                "submissionTimestamp": "2018-03-09T10:33:30.3700512Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "e27acfb4-f7a6-48d0-a51d-219e0849c629"
+}
