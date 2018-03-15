@@ -1,0 +1,192 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520945694",
+                    "nbf": "1520945694",
+                    "exp": "1520949594",
+                    "aio": "Y2NgYOhn2HrZX3ByfOIknuoXOnqdAA==",
+                    "appid": "60e6cd67-9c8c-4951-9b3c-23c25a2169af",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "FSX5BKBmFUysx4JSnDsyAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Compute/disks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5"
+                },
+                "eventChannels": "Operation",
+                "caller": "d386b801-104c-4e2a-ad46-968860a24972",
+                "eventDataId": "4473f800-a0f4-48a6-bc1d-665495b786e6",
+                "correlationId": "c823ee02-7f35-46c0-b4ca-5deb41f31257",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-BROKER-PROJECT",
+                "resourceProviderName": {
+                    "value": "Microsoft.Compute",
+                    "localizedValue": "Microsoft.Compute"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5",
+                "operationId": "0916e8d3-74a9-4323-9d09-c7c0d7cd6f6a",
+                "operationName": {
+                    "value": "Microsoft.Compute/disks/write",
+                    "localizedValue": "Microsoft.Compute/disks/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T13:09:54.2149495Z",
+                "submissionTimestamp": "2018-03-13T13:10:10.089221Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520945694",
+                    "nbf": "1520945694",
+                    "exp": "1520949594",
+                    "aio": "Y2NgYOhn2HrZX3ByfOIknuoXOnqdAA==",
+                    "appid": "60e6cd67-9c8c-4951-9b3c-23c25a2169af",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "FSX5BKBmFUysx4JSnDsyAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "9773eed2-cd65-4391-82c1-027878c33c12"
+                },
+                "authorization": {
+                    "action": "Microsoft.Compute/disks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5"
+                },
+                "eventChannels": "Operation",
+                "caller": "d386b801-104c-4e2a-ad46-968860a24972",
+                "eventDataId": "6b3a95b8-6731-4de6-a65a-71b4be84e808",
+                "correlationId": "c823ee02-7f35-46c0-b4ca-5deb41f31257",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "4defafb8-b173-478e-ad11-9ec402e6fd1f",
+                    "clientIpAddress": "191.237.40.201",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-BROKER-PROJECT",
+                "resourceProviderName": {
+                    "value": "Microsoft.Compute",
+                    "localizedValue": "Microsoft.Compute"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5",
+                "operationId": "c823ee02-7f35-46c0-b4ca-5deb41f31257",
+                "operationName": {
+                    "value": "Microsoft.Compute/disks/write",
+                    "localizedValue": "Microsoft.Compute/disks/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-13T12:59:54.9530792Z",
+                "submissionTimestamp": "2018-03-13T13:00:10.1909259Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520945694",
+                    "nbf": "1520945694",
+                    "exp": "1520949594",
+                    "aio": "Y2NgYOhn2HrZX3ByfOIknuoXOnqdAA==",
+                    "appid": "60e6cd67-9c8c-4951-9b3c-23c25a2169af",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "FSX5BKBmFUysx4JSnDsyAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Compute/disks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5"
+                },
+                "eventChannels": "Operation",
+                "caller": "d386b801-104c-4e2a-ad46-968860a24972",
+                "eventDataId": "873e85b0-22f7-415a-aebf-fa5d1ea4549a",
+                "correlationId": "c823ee02-7f35-46c0-b4ca-5deb41f31257",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "4defafb8-b173-478e-ad11-9ec402e6fd1f",
+                    "clientIpAddress": "191.237.40.201",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-BROKER-PROJECT",
+                "resourceProviderName": {
+                    "value": "Microsoft.Compute",
+                    "localizedValue": "Microsoft.Compute"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5",
+                "operationId": "c823ee02-7f35-46c0-b4ca-5deb41f31257",
+                "operationName": {
+                    "value": "Microsoft.Compute/disks/write",
+                    "localizedValue": "Microsoft.Compute/disks/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T12:59:54.6561787Z",
+                "submissionTimestamp": "2018-03-13T13:00:10.1909259Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "a3f93c05-f4b2-4801-b0ac-f94fa4fa81d9"
+}

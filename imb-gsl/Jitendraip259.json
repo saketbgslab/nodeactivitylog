@@ -1,0 +1,347 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521019957",
+                    "nbf": "1521019957",
+                    "exp": "1521023857",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYOBiX6F4vTrx1Wn7ilgZWQeBhSZFcy149uQWOvUfUeTSrQcA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "ygSTIteILEqa0-M88UQwAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/publicIpAddresses/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "fc729ea4-0ab9-4548-a1be-aee25944d127",
+                "correlationId": "b9a59ccd-c559-43ef-ba7b-bbcd8e20d92d",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendraip259",
+                "operationId": "78525c5e-537b-4a89-8978-93185fa51cb9",
+                "operationName": {
+                    "value": "Microsoft.Network/publicIPAddresses/write",
+                    "localizedValue": "Microsoft.Network/publicIPAddresses/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T10:16:52.3785689Z",
+                "submissionTimestamp": "2018-03-14T10:17:10.4963771Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521019957",
+                    "nbf": "1521019957",
+                    "exp": "1521023857",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYOBiX6F4vTrx1Wn7ilgZWQeBhSZFcy149uQWOvUfUeTSrQcA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "ygSTIteILEqa0-M88UQwAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/publicIpAddresses/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "2a53f2cd-fe72-4f1c-8457-ad129053706b",
+                "correlationId": "b9a59ccd-c559-43ef-ba7b-bbcd8e20d92d",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendraip259",
+                "operationId": "eae7ca68-39ac-4b48-bcdc-abe8a9dd4640",
+                "operationName": {
+                    "value": "Microsoft.Network/publicIPAddresses/write",
+                    "localizedValue": "Microsoft.Network/publicIPAddresses/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T10:16:39.7712049Z",
+                "submissionTimestamp": "2018-03-14T10:17:00.0926635Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521019957",
+                    "nbf": "1521019957",
+                    "exp": "1521023857",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYOBiX6F4vTrx1Wn7ilgZWQeBhSZFcy149uQWOvUfUeTSrQcA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "ygSTIteILEqa0-M88UQwAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/publicIpAddresses/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "c3cd739b-0ab6-4863-9463-f13afd01335c",
+                "correlationId": "b9a59ccd-c559-43ef-ba7b-bbcd8e20d92d",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendraip259",
+                "operationId": "ab838e09-1730-4535-8804-87116fbf169e",
+                "operationName": {
+                    "value": "Microsoft.Network/publicIPAddresses/write",
+                    "localizedValue": "Microsoft.Network/publicIPAddresses/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T10:06:46.9402759Z",
+                "submissionTimestamp": "2018-03-14T10:07:00.1590533Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521019957",
+                    "nbf": "1521019957",
+                    "exp": "1521023857",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYOBiX6F4vTrx1Wn7ilgZWQeBhSZFcy149uQWOvUfUeTSrQcA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "ygSTIteILEqa0-M88UQwAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": "f98b21af-e2c3-4ae3-93fa-b8a514fad4b7",
+                    "responseBody": "{\"name\":\"Jitendraip259\",\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendraip259\",\"etag\":\"W/\\\"20883421-4dad-4b06-9eeb-407fe1e29895\\\"\",\"location\":\"eastus\",\"properties\":{\"provisioningState\":\"Updating\",\"resourceGuid\":\"269432a2-d108-4824-9695-878ab635c44c\",\"publicIPAddressVersion\":\"IPv4\",\"publicIPAllocationMethod\":\"Dynamic\",\"idleTimeoutInMinutes\":4},\"type\":\"Microsoft.Network/publicIPAddresses\",\"sku\":{\"name\":\"Basic\"}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/publicIpAddresses/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "5b176079-fe95-423b-8d25-dd4b3ff3f143",
+                "correlationId": "b9a59ccd-c559-43ef-ba7b-bbcd8e20d92d",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "cd1d06bf-a0f2-4aca-9872-583836da2000",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259",
+                "operationId": "98812d5c-6c4f-4a6d-aab3-cf5710a5e4b6",
+                "operationName": {
+                    "value": "Microsoft.Network/publicIpAddresses/write",
+                    "localizedValue": "Microsoft.Network/publicIpAddresses/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-14T10:06:39.6651273Z",
+                "submissionTimestamp": "2018-03-14T10:07:00.125494Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521019957",
+                    "nbf": "1521019957",
+                    "exp": "1521023857",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYOBiX6F4vTrx1Wn7ilgZWQeBhSZFcy149uQWOvUfUeTSrQcA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "ygSTIteILEqa0-M88UQwAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "requestbody": "{\"sku\":{\"name\":\"Basic\"},\"location\":\"eastus\",\"properties\":{\"publicIpAllocationMethod\":\"Dynamic\"}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/publicIpAddresses/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "5c3081eb-38cb-45f2-8c3a-ba309ee27257",
+                "correlationId": "b9a59ccd-c559-43ef-ba7b-bbcd8e20d92d",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "cd1d06bf-a0f2-4aca-9872-583836da2000",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/Jitendraip259",
+                "operationId": "98812d5c-6c4f-4a6d-aab3-cf5710a5e4b6",
+                "operationName": {
+                    "value": "Microsoft.Network/publicIpAddresses/write",
+                    "localizedValue": "Microsoft.Network/publicIpAddresses/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T10:06:34.1340662Z",
+                "submissionTimestamp": "2018-03-14T10:06:50.0976911Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "32c6339e-dc72-43e9-bf16-72e992f66f67"
+}

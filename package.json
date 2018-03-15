@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/saketbgslab/nodeactivitylog#readme",
   "dependencies": {
+    "async": "^2.6.0",
     "azure-arm-monitor": "^1.0.1-preview",
     "azure-arm-resource": "^3.1.1-preview",
     "azure-monitoring": "^0.10.5",

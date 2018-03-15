@@ -1,0 +1,192 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521092014",
+                    "nbf": "1521092014",
+                    "exp": "1521095914",
+                    "aio": "Y2NgYJj9dsdkLfEFKwvLuMolWf5eBAA=",
+                    "appid": "60e6cd67-9c8c-4951-9b3c-23c25a2169af",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "FWAXm5vi2ESRMrMg8RM-AA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Compute/disks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79"
+                },
+                "eventChannels": "Operation",
+                "caller": "d386b801-104c-4e2a-ad46-968860a24972",
+                "eventDataId": "b41dc479-c05f-46c1-a838-5a055c180f18",
+                "correlationId": "88afbc90-1062-4daa-b314-3ff6b44647ef",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-BROKER-PROJECT",
+                "resourceProviderName": {
+                    "value": "Microsoft.Compute",
+                    "localizedValue": "Microsoft.Compute"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79",
+                "operationId": "d78197a7-b318-4373-84a6-01ba72b6b7e5",
+                "operationName": {
+                    "value": "Microsoft.Compute/disks/write",
+                    "localizedValue": "Microsoft.Compute/disks/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-15T05:48:34.1103024Z",
+                "submissionTimestamp": "2018-03-15T05:48:50.1771525Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521092014",
+                    "nbf": "1521092014",
+                    "exp": "1521095914",
+                    "aio": "Y2NgYJj9dsdkLfEFKwvLuMolWf5eBAA=",
+                    "appid": "60e6cd67-9c8c-4951-9b3c-23c25a2169af",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "FWAXm5vi2ESRMrMg8RM-AA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "37b064a6-94fb-47ce-9a27-a19180a549a6"
+                },
+                "authorization": {
+                    "action": "Microsoft.Compute/disks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79"
+                },
+                "eventChannels": "Operation",
+                "caller": "d386b801-104c-4e2a-ad46-968860a24972",
+                "eventDataId": "8bd1e2d6-e075-4364-9cd6-552940e4a505",
+                "correlationId": "88afbc90-1062-4daa-b314-3ff6b44647ef",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "92be8fa1-0430-4d2c-905f-c73999d6a897",
+                    "clientIpAddress": "191.237.40.201",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-BROKER-PROJECT",
+                "resourceProviderName": {
+                    "value": "Microsoft.Compute",
+                    "localizedValue": "Microsoft.Compute"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79",
+                "operationId": "88afbc90-1062-4daa-b314-3ff6b44647ef",
+                "operationName": {
+                    "value": "Microsoft.Compute/disks/write",
+                    "localizedValue": "Microsoft.Compute/disks/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-15T05:38:34.7063228Z",
+                "submissionTimestamp": "2018-03-15T05:38:59.0867717Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521092014",
+                    "nbf": "1521092014",
+                    "exp": "1521095914",
+                    "aio": "Y2NgYJj9dsdkLfEFKwvLuMolWf5eBAA=",
+                    "appid": "60e6cd67-9c8c-4951-9b3c-23c25a2169af",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d386b801-104c-4e2a-ad46-968860a24972",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "FWAXm5vi2ESRMrMg8RM-AA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Compute/disks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79"
+                },
+                "eventChannels": "Operation",
+                "caller": "d386b801-104c-4e2a-ad46-968860a24972",
+                "eventDataId": "5194bff0-95cd-46f3-8107-4153d98af9a7",
+                "correlationId": "88afbc90-1062-4daa-b314-3ff6b44647ef",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "92be8fa1-0430-4d2c-905f-c73999d6a897",
+                    "clientIpAddress": "191.237.40.201",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-BROKER-PROJECT",
+                "resourceProviderName": {
+                    "value": "Microsoft.Compute",
+                    "localizedValue": "Microsoft.Compute"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79",
+                "operationId": "88afbc90-1062-4daa-b314-3ff6b44647ef",
+                "operationName": {
+                    "value": "Microsoft.Compute/disks/write",
+                    "localizedValue": "Microsoft.Compute/disks/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-15T05:38:34.3937991Z",
+                "submissionTimestamp": "2018-03-15T05:38:59.0867717Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "d316a0ba-990a-47d9-b82a-92d8fa71f0ee"
+}

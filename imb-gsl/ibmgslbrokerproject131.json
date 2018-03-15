@@ -1,0 +1,1067 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006100",
+                    "nbf": "1521006100",
+                    "exp": "1521010000",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYJj73C9f65tcR8COc9/0DHyqTIt6tz9Xb1uvu6xEyDC06jYA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "vP7q_hLbOEuJcuHRVhwgAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "bc43b516-d858-4699-a3a7-cf627fcf5b50"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "c4cdaebb-5c67-462e-851e-f50ee983a35b",
+                "correlationId": "8339a736-ec50-4a5e-821d-41e34813a3b8",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "8339a736-ec50-4a5e-821d-41e34813a3b8",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-14T05:46:58.3236548Z",
+                "submissionTimestamp": "2018-03-14T05:47:10.3075484Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006100",
+                    "nbf": "1521006100",
+                    "exp": "1521010000",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYJj73C9f65tcR8COc9/0DHyqTIt6tz9Xb1uvu6xEyDC06jYA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "vP7q_hLbOEuJcuHRVhwgAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "b86eb3a4-08bc-42ec-9385-8509f2027dbe",
+                "correlationId": "8339a736-ec50-4a5e-821d-41e34813a3b8",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "8339a736-ec50-4a5e-821d-41e34813a3b8",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T05:46:58.0423959Z",
+                "submissionTimestamp": "2018-03-14T05:47:10.3075484Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006107",
+                    "nbf": "1521006107",
+                    "exp": "1521010007",
+                    "aio": "Y2NgYDibWVm+hms+l/b/JIMZdS6SAA==",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "I0VRRbd65kSUTrD1sfREAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "3ff3c4e5-0cff-4504-a169-41bb3f916e5c"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "41c10f1d-35e2-4458-9705-5afe39cb78c3",
+                "correlationId": "250a1ee7-5b45-4194-a27e-d7d8918586e7",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4003",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "250a1ee7-5b45-4194-a27e-d7d8918586e7",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-14T05:46:47.8522123Z",
+                "submissionTimestamp": "2018-03-14T05:47:09.1502663Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006107",
+                    "nbf": "1521006107",
+                    "exp": "1521010007",
+                    "aio": "Y2NgYDibWVm+hms+l/b/JIMZdS6SAA==",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "I0VRRbd65kSUTrD1sfREAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "5a5ce431-e47f-4a15-84ca-5f0245195719",
+                "correlationId": "250a1ee7-5b45-4194-a27e-d7d8918586e7",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4003",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "250a1ee7-5b45-4194-a27e-d7d8918586e7",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T05:46:47.7897386Z",
+                "submissionTimestamp": "2018-03-14T05:47:09.1502663Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006106",
+                    "nbf": "1521006106",
+                    "exp": "1521010006",
+                    "aio": "Y2NgYGjbuHe/XkPQcv0764WXV3tcAAA=",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "80eN0sb-qUunXzz5rUQ9AA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "63c46ff6-ce41-4622-89f1-3637f01dff95"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "204feca2-dfbf-4098-9a34-50463a9614bf",
+                "correlationId": "42997f2c-5bb1-40b9-9aac-aa826d03a44b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4002",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "42997f2c-5bb1-40b9-9aac-aa826d03a44b",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-14T05:46:47.0116699Z",
+                "submissionTimestamp": "2018-03-14T05:47:07.1490645Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006106",
+                    "nbf": "1521006106",
+                    "exp": "1521010006",
+                    "aio": "Y2NgYGjbuHe/XkPQcv0764WXV3tcAAA=",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "80eN0sb-qUunXzz5rUQ9AA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "30177be7-1469-4264-858e-715376e1aad0",
+                "correlationId": "42997f2c-5bb1-40b9-9aac-aa826d03a44b",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4002",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "42997f2c-5bb1-40b9-9aac-aa826d03a44b",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T05:46:46.933557Z",
+                "submissionTimestamp": "2018-03-14T05:47:07.1490645Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006106",
+                    "nbf": "1521006106",
+                    "exp": "1521010006",
+                    "aio": "Y2NgYPCxeXT/0qPT1/UdjihdkCtKAAA=",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "MMA04VNvvk2LZbLq8hxAAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "5cc16337-fc13-4d8e-a464-a8feb010a5fc"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "fa095482-a493-43fc-8ad5-2f5384e2e3c4",
+                "correlationId": "ffbfb93a-1f1e-4ddc-b044-640099758444",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4004",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "ffbfb93a-1f1e-4ddc-b044-640099758444",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-14T05:46:46.8896266Z",
+                "submissionTimestamp": "2018-03-14T05:47:02.1415556Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006106",
+                    "nbf": "1521006106",
+                    "exp": "1521010006",
+                    "aio": "Y2NgYEjJqF0stqv73u41a6ZmxPEvBgA=",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "igoZHz66Y0e_yDMIvO88AA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "d86cc553-476d-4f05-8678-e2f3f303254c"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "54e960c1-55f4-493e-b681-c59ab8cee612",
+                "correlationId": "dc13a631-d97a-4fcd-bdf7-b6740a59c567",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4001",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "dc13a631-d97a-4fcd-bdf7-b6740a59c567",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-14T05:46:46.8862754Z",
+                "submissionTimestamp": "2018-03-14T05:47:03.1904668Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006106",
+                    "nbf": "1521006106",
+                    "exp": "1521010006",
+                    "aio": "Y2NgYEjJqF0stqv73u41a6ZmxPEvBgA=",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "igoZHz66Y0e_yDMIvO88AA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "5db4ccd2-91ba-425e-bc75-09bb5407daa7",
+                "correlationId": "dc13a631-d97a-4fcd-bdf7-b6740a59c567",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4001",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "dc13a631-d97a-4fcd-bdf7-b6740a59c567",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T05:46:46.8237774Z",
+                "submissionTimestamp": "2018-03-14T05:47:03.1904668Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.azure.com/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521006106",
+                    "nbf": "1521006106",
+                    "exp": "1521010006",
+                    "aio": "Y2NgYPCxeXT/0qPT1/UdjihdkCtKAAA=",
+                    "appid": "11c174dc-1945-4a9a-a36b-c79a0f246b9b",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "MMA04VNvvk2LZbLq8hxAAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "bb06f595-aa7c-4cde-ac05-51fae1f1d5e3",
+                "eventDataId": "29b642be-2cfe-47c1-977f-bfe9fcd95458",
+                "correlationId": "ffbfb93a-1f1e-4ddc-b044-640099758444",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "6ab42f45-d385-4c08-aec2-8d21fc0a4004",
+                    "clientIpAddress": "23.96.114.155",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "ffbfb93a-1f1e-4ddc-b044-640099758444",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/listKeys/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-14T05:46:46.7897647Z",
+                "submissionTimestamp": "2018-03-14T05:47:02.1405549Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520944609",
+                    "nbf": "1520944609",
+                    "exp": "1520948509",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYPjlttf84K1Dnb7OZvUHTadNaMu0aWW0+68w02RN0YqIxzEA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "L1PpIlqHe0iYQyr1uYEKAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "c49db6fb-3ca5-4762-bdac-d3896d4c3950",
+                "correlationId": "d6f68250-0391-4f30-aca0-b3407d1f606b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "bb7ece1e-8b93-4896-b2b9-ce945bcc3b5e",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/write",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T13:09:42.7291063Z",
+                "submissionTimestamp": "2018-03-13T13:10:00.0991553Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520944609",
+                    "nbf": "1520944609",
+                    "exp": "1520948509",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYPjlttf84K1Dnb7OZvUHTadNaMu0aWW0+68w02RN0YqIxzEA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "L1PpIlqHe0iYQyr1uYEKAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "e2aca1f2-4230-4f42-89e2-f576e0f15087",
+                "correlationId": "d6f68250-0391-4f30-aca0-b3407d1f606b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "5ad3a61d-6fc6-440d-b4ce-2a3d22e52e01",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/write",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T13:09:19.6603485Z",
+                "submissionTimestamp": "2018-03-13T13:09:40.1336673Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520944609",
+                    "nbf": "1520944609",
+                    "exp": "1520948509",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYPjlttf84K1Dnb7OZvUHTadNaMu0aWW0+68w02RN0YqIxzEA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "L1PpIlqHe0iYQyr1uYEKAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "596a266a-960c-4963-8122-be5155a2939c",
+                "correlationId": "d6f68250-0391-4f30-aca0-b3407d1f606b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "eff58068-2ace-4b87-99d9-50362b7f21c9",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/write",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T12:59:37.4052603Z",
+                "submissionTimestamp": "2018-03-13T12:59:50.0869126Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520944609",
+                    "nbf": "1520944609",
+                    "exp": "1520948509",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYPjlttf84K1Dnb7OZvUHTadNaMu0aWW0+68w02RN0YqIxzEA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "L1PpIlqHe0iYQyr1uYEKAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Accepted",
+                    "statusMessage": "\"Resource provisioning is in progress.\""
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Debug",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "a755a0ac-b961-4d7f-88be-bbdcf59b021e",
+                "correlationId": "d6f68250-0391-4f30-aca0-b3407d1f606b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "83e7f9f9-5a45-4cc0-bebe-d65ac28991a5",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/write",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T12:59:24.5180901Z",
+                "submissionTimestamp": "2018-03-13T12:59:40.1298566Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520944609",
+                    "nbf": "1520944609",
+                    "exp": "1520948509",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYPjlttf84K1Dnb7OZvUHTadNaMu0aWW0+68w02RN0YqIxzEA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "L1PpIlqHe0iYQyr1uYEKAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Accepted",
+                    "serviceRequestId": "e279eebf-3f59-427b-b451-28a35a9d6d95"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "e6481474-4517-4650-9b28-f09899f7e4f2",
+                "correlationId": "d6f68250-0391-4f30-aca0-b3407d1f606b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "65281ab5-a741-4d9c-a3f3-6aa15b7247dd",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "724a4831-d396-4d77-adf9-d324da7699e3",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/write",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted (HTTP Status Code: 202)"
+                },
+                "eventTimestamp": "2018-03-13T12:59:18.7837201Z",
+                "submissionTimestamp": "2018-03-13T12:59:40.1298566Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520944609",
+                    "nbf": "1520944609",
+                    "exp": "1520948509",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYPjlttf84K1Dnb7OZvUHTadNaMu0aWW0+68w02RN0YqIxzEA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Jitendra Reddy",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "124a5a9e-d2f0-4831-9f5a-f070f11b2172",
+                    "puid": "10037FFEA9115973",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "8xDlbburkSnUK74HKMQ41G1JUCiYh8q3SwkD6yO7efY",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                    "uti": "L1PpIlqHe0iYQyr1uYEKAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "requestbody": "{\"location\":\"eastus\",\"properties\":{\"accountType\":\"Standard_LRS\"}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Storage/storageAccounts/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131"
+                },
+                "eventChannels": "Operation",
+                "caller": "jitendra.reddy@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "76c512d5-0252-4538-81f7-77795fdcc3c7",
+                "correlationId": "d6f68250-0391-4f30-aca0-b3407d1f606b",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "65281ab5-a741-4d9c-a3f3-6aa15b7247dd",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Storage",
+                    "localizedValue": "Microsoft.Storage"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+                "operationId": "724a4831-d396-4d77-adf9-d324da7699e3",
+                "operationName": {
+                    "value": "Microsoft.Storage/storageAccounts/write",
+                    "localizedValue": "Microsoft.Storage/storageAccounts/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-13T12:59:14.0962468Z",
+                "submissionTimestamp": "2018-03-13T12:59:30.1162114Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "6af6e928-183b-4e54-a166-b479438b89ad"
+}

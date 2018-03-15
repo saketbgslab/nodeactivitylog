@@ -1,0 +1,3199 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520874263",
+                    "nbf": "1520874263",
+                    "exp": "1520878163",
+                    "aio": "Y2NgYGBMZDzsG7lfXqszYKla1xc/AA==",
+                    "appid": "abfa0a7c-a6b6-4736-8310-5855508787cd",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "v1Y1sCQq_0Kvzswwxk0aAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Accepted",
+                    "serviceRequestId": "ed1342f7-94c2-4326-9d0e-6949bcce61f9"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv"
+                },
+                "eventChannels": "Operation",
+                "caller": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                "eventDataId": "b3917e32-319f-4e58-93a8-619713b3931e",
+                "correlationId": "e138913e-0d1c-4b14-b659-2d879811ecd4",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "70.37.57.58",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv",
+                "operationId": "e138913e-0d1c-4b14-b659-2d879811ecd4",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/delete"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted (HTTP Status Code: 202)"
+                },
+                "eventTimestamp": "2018-03-12T17:09:24.1738267Z",
+                "submissionTimestamp": "2018-03-12T17:09:40.1726384Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520874263",
+                    "nbf": "1520874263",
+                    "exp": "1520878163",
+                    "aio": "Y2NgYGBMZDzsG7lfXqszYKla1xc/AA==",
+                    "appid": "abfa0a7c-a6b6-4736-8310-5855508787cd",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "v1Y1sCQq_0Kvzswwxk0aAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv"
+                },
+                "eventChannels": "Operation",
+                "caller": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                "eventDataId": "a548d348-e267-4dc9-97c9-d1441bc2921e",
+                "correlationId": "e138913e-0d1c-4b14-b659-2d879811ecd4",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "70.37.57.58",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv",
+                "operationId": "e138913e-0d1c-4b14-b659-2d879811ecd4",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:09:23.4550469Z",
+                "submissionTimestamp": "2018-03-12T17:09:40.1726384Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "1c91d661-ee0f-4493-96d2-6af370e9a110",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "4b681d3b-c73a-4e2b-87a8-4512ea442976",
+                "correlationId": "7787e05b-6282-40a8-a0a3-2db72448e995",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956026",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "7787e05b-6282-40a8-a0a3-2db72448e995",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:06:31.1686806Z",
+                "submissionTimestamp": "2018-03-12T17:06:50.3824284Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "3d948c30-9d66-4f47-9bc4-ea7d7b9c70ba",
+                "correlationId": "7787e05b-6282-40a8-a0a3-2db72448e995",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956026",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "7787e05b-6282-40a8-a0a3-2db72448e995",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:06:30.4925913Z",
+                "submissionTimestamp": "2018-03-12T17:06:50.3824284Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "14687d92-bca3-40e5-b599-9c77f1ee052f",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "f5d7f4cc-4a05-4f03-84cf-52a3871c99b4",
+                "correlationId": "1e9428d3-269b-4720-8e39-21a86e92587e",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956024",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "1e9428d3-269b-4720-8e39-21a86e92587e",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:06:15.1829835Z",
+                "submissionTimestamp": "2018-03-12T17:06:29.6996632Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "ba358ad5-423b-43db-a02f-b2d0fa32883d",
+                "correlationId": "1e9428d3-269b-4720-8e39-21a86e92587e",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956024",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "1e9428d3-269b-4720-8e39-21a86e92587e",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:06:14.4954384Z",
+                "submissionTimestamp": "2018-03-12T17:06:29.6996632Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "73951b09-ce5c-4220-92d0-8c372ae0dd06",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "bde067f3-ab43-4c29-8836-0e726e2a7106",
+                "correlationId": "82158001-d563-4f79-a77b-2289a9a84780",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956022",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "82158001-d563-4f79-a77b-2289a9a84780",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:05:59.2434234Z",
+                "submissionTimestamp": "2018-03-12T17:06:20.3083943Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "29487176-088d-446e-ad3a-77f7e981d594",
+                "correlationId": "82158001-d563-4f79-a77b-2289a9a84780",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956022",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "82158001-d563-4f79-a77b-2289a9a84780",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:05:58.5559011Z",
+                "submissionTimestamp": "2018-03-12T17:06:20.3083943Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "bc408539-8346-45ae-a176-b18695c6f339",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "3205d31a-8a70-4e96-81e9-9f5374615a6a",
+                "correlationId": "9e1cbe53-a9b7-4905-b85b-6965732f9024",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b95601f",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "9e1cbe53-a9b7-4905-b85b-6965732f9024",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:05:43.4568933Z",
+                "submissionTimestamp": "2018-03-12T17:06:00.338564Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "a0832a93-dc38-46b2-92f4-561afe3ccef3",
+                "correlationId": "9e1cbe53-a9b7-4905-b85b-6965732f9024",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b95601f",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "9e1cbe53-a9b7-4905-b85b-6965732f9024",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:05:42.706814Z",
+                "submissionTimestamp": "2018-03-12T17:06:00.3375628Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "7ff3dc34-d67f-463c-bf3f-5622250ce41d",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "f642e0ab-277a-44b8-b300-9ffee9f65f99",
+                "correlationId": "52571789-9aac-45b4-a7fa-d84df09d8beb",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b95601c",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "52571789-9aac-45b4-a7fa-d84df09d8beb",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:05:27.3473065Z",
+                "submissionTimestamp": "2018-03-12T17:05:40.2551763Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "292d09c5-8dee-4ada-867e-1b3620033a82",
+                "correlationId": "52571789-9aac-45b4-a7fa-d84df09d8beb",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b95601c",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "52571789-9aac-45b4-a7fa-d84df09d8beb",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:05:26.5035384Z",
+                "submissionTimestamp": "2018-03-12T17:05:40.2551763Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "d7927974-7973-464a-9b70-1a24e5e5460e",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "06efc149-b58b-4df6-b76b-0a69529eb7cf",
+                "correlationId": "f8d771d1-950a-4916-bcda-33904df0a38c",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956019",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "f8d771d1-950a-4916-bcda-33904df0a38c",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:05:11.3496851Z",
+                "submissionTimestamp": "2018-03-12T17:05:29.7034798Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "4f1a9e95-18ee-4936-8c9c-c3152e5cbfe7",
+                "correlationId": "f8d771d1-950a-4916-bcda-33904df0a38c",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956019",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "f8d771d1-950a-4916-bcda-33904df0a38c",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:05:10.548205Z",
+                "submissionTimestamp": "2018-03-12T17:05:29.7034798Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {
+                    "statusCode": "BadRequest",
+                    "serviceRequestId": "80616768-5d87-410d-bf24-31164f4a7915",
+                    "statusMessage": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}",
+                    "responseBody": "{\"error\":{\"code\":\"InUseSubnetCannotBeDeleted\",\"message\":\"Subnet AtikshaAppEnv-subnet is in use by /subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Web/hostingEnvironments/AtikshaAppEnv and cannot be deleted.\",\"details\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "a2915506-392f-4873-aa8e-946a821fa78a",
+                "correlationId": "cdae7fa8-92b5-4fa7-8727-20bbe954534b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956012",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Error",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "cdae7fa8-92b5-4fa7-8727-20bbe954534b",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Failed",
+                    "localizedValue": "Failed"
+                },
+                "subStatus": {
+                    "value": "BadRequest",
+                    "localizedValue": "Bad Request (HTTP Status Code: 400)"
+                },
+                "eventTimestamp": "2018-03-12T17:04:55.1366537Z",
+                "submissionTimestamp": "2018-03-12T17:05:10.3845297Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520873634",
+                    "nbf": "1520873634",
+                    "exp": "1520877534",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAQ0HSqyzMX/Q7v2zBpZHt9yGyWmLE3YcIbv4gHLpZWLg=",
+                    "altsecid": "1:live.com:00034001C8D3BC1F",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "idmSubs@gslab.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Group",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "IDMsubs",
+                    "groups": "4dce3d01-3aca-412f-bb52-227fcbcfcc99",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+                    "ipaddr": "123.201.194.46",
+                    "name": "IDMsubs Group",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "f4f6ea4c-91d5-499a-83a3-cf2c943000f4",
+                    "puid": "10037FFE8D89B3A9",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Wm0gnMrOwTLzU0d2KQShh2fMNO2RUXeuHHNHBd5BZok",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#idmSubs@gslab.com",
+                    "uti": "b4cBN2n0QUCLQr5ze94NAA",
+                    "ver": "1.0",
+                    "wids": "62e90394-69f5-4237-9190-012177145e10"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/delete",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "idmSubs@gslab.com",
+                "eventDataId": "8855283a-b4c0-4cbf-8484-e5996879a183",
+                "correlationId": "cdae7fa8-92b5-4fa7-8727-20bbe954534b",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "b6b32b77-2a76-4c47-8340-16e58b956012",
+                    "clientIpAddress": "123.201.194.46",
+                    "method": "DELETE"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "cdae7fa8-92b5-4fa7-8727-20bbe954534b",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/delete",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/delete"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-12T17:04:54.3710006Z",
+                "submissionTimestamp": "2018-03-12T17:05:10.3845297Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582449",
+                    "nbf": "1520582449",
+                    "exp": "1520586349",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAe5ZjlQFTs4gpQx7mn/UPEZQzkcBhWICG7pU10uhO6Jo=",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Atiksha Batra",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "510e6ad5-097e-42df-a239-6fb423474eca",
+                    "puid": "10033FFFA8AF94A3",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "oZcqkA6sWuIg0pcZBiODEfcT9pvDgtKIvCDCvN61BGI",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "uti": "7kqCmCxwPkeehqvCuS0FAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "7eb8ded8-b923-4632-9a03-077d732c99f9",
+                "correlationId": "182d2050-3b4e-4240-820b-755540f3639e",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "df80f6e9-ed21-40a0-b6ec-c360b943971a",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:18:27.6369399Z",
+                "submissionTimestamp": "2018-03-09T08:18:40.1429879Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582449",
+                    "nbf": "1520582449",
+                    "exp": "1520586349",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAe5ZjlQFTs4gpQx7mn/UPEZQzkcBhWICG7pU10uhO6Jo=",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Atiksha Batra",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "510e6ad5-097e-42df-a239-6fb423474eca",
+                    "puid": "10033FFFA8AF94A3",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "oZcqkA6sWuIg0pcZBiODEfcT9pvDgtKIvCDCvN61BGI",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "uti": "7kqCmCxwPkeehqvCuS0FAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "6af9720f-f6cf-446e-8de7-edcee0648c19",
+                "correlationId": "182d2050-3b4e-4240-820b-755540f3639e",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "29eb803d-e4a2-4ab4-bf62-53a64c75c7ca",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:18:15.7836445Z",
+                "submissionTimestamp": "2018-03-09T08:18:30.0631004Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582929",
+                    "nbf": "1520582929",
+                    "exp": "1520586829",
+                    "aio": "Y2NgYHi+/sXkWlmfp5dY+qa4uGfcBgA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "U8KTGYWqRU6tbIHLDw0DAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "5a1c88db-e08d-481d-8d67-041a2a606c3c"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "f9de8388-4d3c-4b4f-8e68-97105bb1333a",
+                "correlationId": "dd7143ce-9682-414f-a30a-59cddead7a41",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "dd7143ce-9682-414f-a30a-59cddead7a41",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:50.5090815Z",
+                "submissionTimestamp": "2018-03-09T08:14:10.1121064Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582929",
+                    "nbf": "1520582929",
+                    "exp": "1520586829",
+                    "aio": "Y2NgYHi+/sXkWlmfp5dY+qa4uGfcBgA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "U8KTGYWqRU6tbIHLDw0DAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "ad87650d-1d03-4113-8579-4df94c29b793",
+                "correlationId": "dd7143ce-9682-414f-a30a-59cddead7a41",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "dd7143ce-9682-414f-a30a-59cddead7a41",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:50.4465595Z",
+                "submissionTimestamp": "2018-03-09T08:14:10.1121064Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582929",
+                    "nbf": "1520582929",
+                    "exp": "1520586829",
+                    "aio": "Y2NgYHi+/sXkWlmfp5dY+qa4uGfcBgA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "U8KTGYWqRU6tbIHLDw0DAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "86dbed2c-eac5-46ec-b83c-b29e9259bc7e"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "9b0f9505-00ac-420c-8417-8d903f3d79ed",
+                "correlationId": "1705d70b-0b49-4af6-a9c4-ec1aa878e50b",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "1705d70b-0b49-4af6-a9c4-ec1aa878e50b",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:50.3972765Z",
+                "submissionTimestamp": "2018-03-09T08:14:10.1072086Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582929",
+                    "nbf": "1520582929",
+                    "exp": "1520586829",
+                    "aio": "Y2NgYHi+/sXkWlmfp5dY+qa4uGfcBgA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "U8KTGYWqRU6tbIHLDw0DAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "61895ade-5a66-4d60-9cb7-ad92a135d6b3",
+                "correlationId": "1705d70b-0b49-4af6-a9c4-ec1aa878e50b",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "1705d70b-0b49-4af6-a9c4-ec1aa878e50b",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:50.366067Z",
+                "submissionTimestamp": "2018-03-09T08:14:10.1072086Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582929",
+                    "nbf": "1520582929",
+                    "exp": "1520586829",
+                    "aio": "Y2NgYHi+/sXkWlmfp5dY+qa4uGfcBgA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "U8KTGYWqRU6tbIHLDw0DAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "06312878-3ab5-4c8b-adec-e41c2c196f9e"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "8efc97a1-0a8f-4b69-a5bf-e04117c0f7ff",
+                "correlationId": "809589a6-1b1b-4534-8d39-7240e70e0423",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "809589a6-1b1b-4534-8d39-7240e70e0423",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:50.0191433Z",
+                "submissionTimestamp": "2018-03-09T08:14:10.0864584Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582929",
+                    "nbf": "1520582929",
+                    "exp": "1520586829",
+                    "aio": "Y2NgYHi+/sXkWlmfp5dY+qa4uGfcBgA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "U8KTGYWqRU6tbIHLDw0DAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "011fbea4-9ca0-4010-a66c-a9d23872447f",
+                "correlationId": "809589a6-1b1b-4534-8d39-7240e70e0423",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "809589a6-1b1b-4534-8d39-7240e70e0423",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:49.9722689Z",
+                "submissionTimestamp": "2018-03-09T08:14:10.0864584Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582912",
+                    "nbf": "1520582912",
+                    "exp": "1520586812",
+                    "aio": "Y2NgYOBKiZSrPOlixzeJYVM7d2YVAA==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "_HjDEASljk-jHsqeetgDAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "7a7ad8da-f50a-451f-81fa-67d5f9e0cf4b"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "35b0cefe-3e42-4ab0-b3d3-5ff03798479e",
+                "correlationId": "e65fc765-0104-4bde-a488-a53cda1f6581",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "e65fc765-0104-4bde-a488-a53cda1f6581",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:34.0865364Z",
+                "submissionTimestamp": "2018-03-09T08:13:50.1054167Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582912",
+                    "nbf": "1520582912",
+                    "exp": "1520586812",
+                    "aio": "Y2NgYOBKiZSrPOlixzeJYVM7d2YVAA==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "_HjDEASljk-jHsqeetgDAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "6085d9f0-a377-42da-a33c-65cd8e8614a2",
+                "correlationId": "e65fc765-0104-4bde-a488-a53cda1f6581",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "e65fc765-0104-4bde-a488-a53cda1f6581",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:33.5396387Z",
+                "submissionTimestamp": "2018-03-09T08:13:50.1054167Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582912",
+                    "nbf": "1520582912",
+                    "exp": "1520586812",
+                    "aio": "Y2NgYOBKiZSrPOlixzeJYVM7d2YVAA==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "_HjDEASljk-jHsqeetgDAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "83a2f1aa-ecc1-46a4-abfb-36dd3f10247e"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "f0849e63-3f83-42d9-b815-43e9558ae867",
+                "correlationId": "bac300da-4912-4f0e-a2ad-5eea3b64d924",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "bac300da-4912-4f0e-a2ad-5eea3b64d924",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:33.490186Z",
+                "submissionTimestamp": "2018-03-09T08:13:50.1162153Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582912",
+                    "nbf": "1520582912",
+                    "exp": "1520586812",
+                    "aio": "Y2NgYOBKiZSrPOlixzeJYVM7d2YVAA==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "_HjDEASljk-jHsqeetgDAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "3344d7a6-97cb-4399-a47f-299ad6aabeab",
+                "correlationId": "bac300da-4912-4f0e-a2ad-5eea3b64d924",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "bac300da-4912-4f0e-a2ad-5eea3b64d924",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:33.3808035Z",
+                "submissionTimestamp": "2018-03-09T08:13:50.1152132Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582912",
+                    "nbf": "1520582912",
+                    "exp": "1520586812",
+                    "aio": "Y2NgYOBKiZSrPOlixzeJYVM7d2YVAA==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "_HjDEASljk-jHsqeetgDAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "355a9b13-c302-45da-ab4d-af991f168395"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "af0057ba-afc3-4dfd-ac95-cf4189cda06f",
+                "correlationId": "889e8698-5a28-4c1e-9778-510d9b703f9f",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "889e8698-5a28-4c1e-9778-510d9b703f9f",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:33.1282398Z",
+                "submissionTimestamp": "2018-03-09T08:13:50.1388146Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582912",
+                    "nbf": "1520582912",
+                    "exp": "1520586812",
+                    "aio": "Y2NgYOBKiZSrPOlixzeJYVM7d2YVAA==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "_HjDEASljk-jHsqeetgDAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "a9f78dd3-2bb1-43e6-9f46-620791f8030b",
+                "correlationId": "889e8698-5a28-4c1e-9778-510d9b703f9f",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "889e8698-5a28-4c1e-9778-510d9b703f9f",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:33.0188002Z",
+                "submissionTimestamp": "2018-03-09T08:13:50.1388146Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582894",
+                    "nbf": "1520582894",
+                    "exp": "1520586794",
+                    "aio": "Y2NgYJjNmzMxqmNN7+MDisKKNh/TAQ==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "rvI-HqcIP0eVYyfAFysEAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "935ea7b6-ffdb-4a90-ba2a-1f9e120e7713"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "6c89be56-45aa-4e60-80ff-c6b0bcdebfdb",
+                "correlationId": "cd88fa49-4dac-4fe5-a1b6-ceb96a9cf54d",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "cd88fa49-4dac-4fe5-a1b6-ceb96a9cf54d",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:15.5410667Z",
+                "submissionTimestamp": "2018-03-09T08:13:30.0952261Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582894",
+                    "nbf": "1520582894",
+                    "exp": "1520586794",
+                    "aio": "Y2NgYJjNmzMxqmNN7+MDisKKNh/TAQ==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "rvI-HqcIP0eVYyfAFysEAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "fcf5192f-df3b-4a64-b474-72058cd6f948",
+                "correlationId": "cd88fa49-4dac-4fe5-a1b6-ceb96a9cf54d",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "cd88fa49-4dac-4fe5-a1b6-ceb96a9cf54d",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:14.9942023Z",
+                "submissionTimestamp": "2018-03-09T08:13:30.0952261Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582894",
+                    "nbf": "1520582894",
+                    "exp": "1520586794",
+                    "aio": "Y2NgYJjNmzMxqmNN7+MDisKKNh/TAQ==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "rvI-HqcIP0eVYyfAFysEAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "8cc9aa83-ffcc-448d-8bf9-c591961a9ece"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "01ad274f-d76c-46a3-ad13-62e2e0a6b720",
+                "correlationId": "833cffb4-b2a4-4e79-981d-ab5d130e99fb",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "833cffb4-b2a4-4e79-981d-ab5d130e99fb",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:14.7612336Z",
+                "submissionTimestamp": "2018-03-09T08:13:30.0882426Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582894",
+                    "nbf": "1520582894",
+                    "exp": "1520586794",
+                    "aio": "Y2NgYJjNmzMxqmNN7+MDisKKNh/TAQ==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "rvI-HqcIP0eVYyfAFysEAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "e33c7cd7-2bc2-4b7e-b2f0-c21c922d9029",
+                "correlationId": "833cffb4-b2a4-4e79-981d-ab5d130e99fb",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "833cffb4-b2a4-4e79-981d-ab5d130e99fb",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:14.6518626Z",
+                "submissionTimestamp": "2018-03-09T08:13:30.0872419Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582894",
+                    "nbf": "1520582894",
+                    "exp": "1520586794",
+                    "aio": "Y2NgYJjNmzMxqmNN7+MDisKKNh/TAQ==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "rvI-HqcIP0eVYyfAFysEAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "de80cf53-e8b8-4e04-ba2f-b49536900e60"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "f0a5a194-37a6-4395-a054-bdc4b962c802",
+                "correlationId": "d0fc18e9-2e61-4ec8-82c3-b5a47a1c2008",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "d0fc18e9-2e61-4ec8-82c3-b5a47a1c2008",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:13:14.1617455Z",
+                "submissionTimestamp": "2018-03-09T08:13:30.1149823Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582894",
+                    "nbf": "1520582894",
+                    "exp": "1520586794",
+                    "aio": "Y2NgYJjNmzMxqmNN7+MDisKKNh/TAQ==",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "rvI-HqcIP0eVYyfAFysEAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "ce639162-45ed-4307-9b29-c93bd30c2e17",
+                "correlationId": "d0fc18e9-2e61-4ec8-82c3-b5a47a1c2008",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "d0fc18e9-2e61-4ec8-82c3-b5a47a1c2008",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:13:14.0679946Z",
+                "submissionTimestamp": "2018-03-09T08:13:30.1149823Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582876",
+                    "nbf": "1520582876",
+                    "exp": "1520586776",
+                    "aio": "Y2NgYPhqMPnlBE8NPqbuWbvKXacWAQA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "WGSW1tB020q4h9G4faEEAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": "c23c60ab-bcf4-4793-be84-689d69beda54"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "be576aa3-e0b7-4ead-8572-8d02c3e2d13e",
+                "correlationId": "9398b3f4-1b5f-4d04-b794-c4f87b867c81",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "9398b3f4-1b5f-4d04-b794-c4f87b867c81",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-09T08:12:58.1712584Z",
+                "submissionTimestamp": "2018-03-09T08:13:10.1108282Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582876",
+                    "nbf": "1520582876",
+                    "exp": "1520586776",
+                    "aio": "Y2NgYPhqMPnlBE8NPqbuWbvKXacWAQA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "WGSW1tB020q4h9G4faEEAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "77469a78-a156-42fa-a15d-0536e385d992",
+                "correlationId": "9398b3f4-1b5f-4d04-b794-c4f87b867c81",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "9398b3f4-1b5f-4d04-b794-c4f87b867c81",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:12:57.6399724Z",
+                "submissionTimestamp": "2018-03-09T08:13:10.1108282Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582876",
+                    "nbf": "1520582876",
+                    "exp": "1520586776",
+                    "aio": "Y2NgYPhqMPnlBE8NPqbuWbvKXacWAQA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "WGSW1tB020q4h9G4faEEAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "f4ba2008-a0ef-4615-ba8f-05189be8f374"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "ad41c911-e8e9-43b8-80a0-8716c0c0786a",
+                "correlationId": "7116816d-add8-4a83-a864-329041326089",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "7116816d-add8-4a83-a864-329041326089",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:12:57.4173254Z",
+                "submissionTimestamp": "2018-03-09T08:13:10.0947512Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582876",
+                    "nbf": "1520582876",
+                    "exp": "1520586776",
+                    "aio": "Y2NgYPhqMPnlBE8NPqbuWbvKXacWAQA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "WGSW1tB020q4h9G4faEEAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "576fbefa-f756-4de9-bde9-a510f92dcb30",
+                "correlationId": "7116816d-add8-4a83-a864-329041326089",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "7116816d-add8-4a83-a864-329041326089",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:12:57.3079196Z",
+                "submissionTimestamp": "2018-03-09T08:13:10.0947512Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582876",
+                    "nbf": "1520582876",
+                    "exp": "1520586776",
+                    "aio": "Y2NgYPhqMPnlBE8NPqbuWbvKXacWAQA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "WGSW1tB020q4h9G4faEEAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "OK",
+                    "serviceRequestId": "313fb6f3-2c45-47e4-b9ab-75bccaad8182"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "9fee0b04-ada1-412a-819a-e161efe6dd33",
+                "correlationId": "38cffcd5-d360-4d3e-a7cf-7ad083d95b49",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "38cffcd5-d360-4d3e-a7cf-7ad083d95b49",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "OK",
+                    "localizedValue": "OK (HTTP Status Code: 200)"
+                },
+                "eventTimestamp": "2018-03-09T08:12:56.9431844Z",
+                "submissionTimestamp": "2018-03-09T08:13:10.1005602Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582876",
+                    "nbf": "1520582876",
+                    "exp": "1520586776",
+                    "aio": "Y2NgYPhqMPnlBE8NPqbuWbvKXacWAQA=",
+                    "appid": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "WGSW1tB020q4h9G4faEEAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL"
+                },
+                "eventChannels": "Operation",
+                "caller": "d44d76ae-a4e9-4f30-8cb1-8185d10651aa",
+                "eventDataId": "81f5d121-f36b-4a48-a888-df25a6a6b7f2",
+                "correlationId": "38cffcd5-d360-4d3e-a7cf-7ad083d95b49",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "104.42.238.205",
+                    "method": "POST"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/taggedTrafficConsumers/Microsoft.SQL",
+                "operationId": "38cffcd5-d360-4d3e-a7cf-7ad083d95b49",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/taggedTrafficConsumers/validate/action"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:12:56.8181821Z",
+                "submissionTimestamp": "2018-03-09T08:13:10.1005602Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582449",
+                    "nbf": "1520582449",
+                    "exp": "1520586349",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAe5ZjlQFTs4gpQx7mn/UPEZQzkcBhWICG7pU10uhO6Jo=",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Atiksha Batra",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "510e6ad5-097e-42df-a239-6fb423474eca",
+                    "puid": "10033FFFA8AF94A3",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "oZcqkA6sWuIg0pcZBiODEfcT9pvDgtKIvCDCvN61BGI",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "uti": "7kqCmCxwPkeehqvCuS0FAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "8eb2cce7-63bb-4e8c-be22-93412f3f3178",
+                "correlationId": "182d2050-3b4e-4240-820b-755540f3639e",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "08f27fd0-7276-47fc-8db4-7844a2f228bc",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:08:23.6544767Z",
+                "submissionTimestamp": "2018-03-09T08:08:40.0984019Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582601",
+                    "nbf": "1520582601",
+                    "exp": "1520586501",
+                    "aio": "Y2NgYHB0Ynvjc4czhNM58t3KykQXAA==",
+                    "appid": "abfa0a7c-a6b6-4736-8310-5855508787cd",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "nb_24vaceEqEHBEVI64CAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": "accfb152-a113-4415-91e5-a9dcb14be9c7"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv"
+                },
+                "eventChannels": "Operation",
+                "caller": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                "eventDataId": "4f09915b-bae0-49a8-8128-e3a47d5c042c",
+                "correlationId": "dea5f8a4-bcfa-46ab-89c0-9fe4ecce1f5e",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "70.37.57.58",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv",
+                "operationId": "dea5f8a4-bcfa-46ab-89c0-9fe4ecce1f5e",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-09T08:08:22.3412491Z",
+                "submissionTimestamp": "2018-03-09T08:08:40.2325633Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582601",
+                    "nbf": "1520582601",
+                    "exp": "1520586501",
+                    "aio": "Y2NgYHB0Ynvjc4czhNM58t3KykQXAA==",
+                    "appid": "abfa0a7c-a6b6-4736-8310-5855508787cd",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "uti": "nb_24vaceEqEHBEVI64CAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv"
+                },
+                "eventChannels": "Operation",
+                "caller": "fd9277c5-a747-4112-9711-87edd36a5ab2",
+                "eventDataId": "8490e98c-a5ea-41d2-8cc7-a4e8b69a7e75",
+                "correlationId": "dea5f8a4-bcfa-46ab-89c0-9fe4ecce1f5e",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientIpAddress": "70.37.57.58",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet/resourceNavigationLinks/MicrosoftWeb_HostingEnvironments_AtikshaAppEnv",
+                "operationId": "dea5f8a4-bcfa-46ab-89c0-9fe4ecce1f5e",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/subnets/resourceNavigationLinks/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:08:21.7318836Z",
+                "submissionTimestamp": "2018-03-09T08:08:40.2315612Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582449",
+                    "nbf": "1520582449",
+                    "exp": "1520586349",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAe5ZjlQFTs4gpQx7mn/UPEZQzkcBhWICG7pU10uhO6Jo=",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Atiksha Batra",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "510e6ad5-097e-42df-a239-6fb423474eca",
+                    "puid": "10033FFFA8AF94A3",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "oZcqkA6sWuIg0pcZBiODEfcT9pvDgtKIvCDCvN61BGI",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "uti": "7kqCmCxwPkeehqvCuS0FAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": "659e002d-ecbd-4823-878b-e3b9a6d990b5",
+                    "responseBody": "{\"name\":\"AtikshaAppEnv-vnet\",\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet\",\"etag\":\"W/\\\"c09f62c3-a8e4-4001-8b0d-3c11ded65758\\\"\",\"type\":\"Microsoft.Network/virtualNetworks\",\"location\":\"westus\",\"properties\":{\"provisioningState\":\"Updating\",\"resourceGuid\":\"195d1917-4bda-4546-90d9-51f948e07140\",\"addressSpace\":{\"addressPrefixes\":[\"192.168.250.0/23\"]},\"subnets\":[{\"name\":\"AtikshaAppEnv-subnet\",\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet/subnets/AtikshaAppEnv-subnet\",\"etag\":\"W/\\\"c09f62c3-a8e4-4001-8b0d-3c11ded65758\\\"\",\"properties\":{\"provisioningState\":\"Updating\",\"addressPrefix\":\"192.168.250.0/24\",\"networkSecurityGroup\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/AtikshaAppEnv-NSG\"},\"routeTable\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/routeTables/AtikshaAppEnv-Route-Table\"}}}],\"virtualNetworkPeerings\":[]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "306d0866-7467-4f38-a744-0a70e93810f1",
+                "correlationId": "182d2050-3b4e-4240-820b-755540f3639e",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "7d90ec61-652e-40fb-bd06-387c8c50283e",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "0ab5b9fd-473e-43b0-b42a-f3715225d133",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/write"
+                },
+                "status": {
+                    "value": "Accepted",
+                    "localizedValue": "Accepted"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-09T08:08:13.5181431Z",
+                "submissionTimestamp": "2018-03-09T08:08:30.0972537Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1520582449",
+                    "nbf": "1520582449",
+                    "exp": "1520586349",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "ASQA2/8GAAAAe5ZjlQFTs4gpQx7mn/UPEZQzkcBhWICG7pU10uhO6Jo=",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Atiksha Batra",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "510e6ad5-097e-42df-a239-6fb423474eca",
+                    "puid": "10033FFFA8AF94A3",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "oZcqkA6sWuIg0pcZBiODEfcT9pvDgtKIvCDCvN61BGI",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                    "uti": "7kqCmCxwPkeehqvCuS0FAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "requestbody": "{\"location\":\"West US\",\"properties\":{\"addressSpace\":{\"addressPrefixes\":[\"192.168.250.0/23\"]},\"subnets\":[{\"name\":\"AtikshaAppEnv-subnet\",\"properties\":{\"addressPrefix\":\"192.168.250.0/24\",\"networkSecurityGroup\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/AtikshaAppEnv-NSG\"},\"routeTable\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/routeTables/AtikshaAppEnv-Route-Table\"}}}]}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/virtualNetworks/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet"
+                },
+                "eventChannels": "Operation",
+                "caller": "atiksha.batra@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "9a790717-0fbc-47cd-82e9-99fc97a024a4",
+                "correlationId": "182d2050-3b4e-4240-820b-755540f3639e",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "7d90ec61-652e-40fb-bd06-387c8c50283e",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+                "operationId": "0ab5b9fd-473e-43b0-b42a-f3715225d133",
+                "operationName": {
+                    "value": "Microsoft.Network/virtualNetworks/write",
+                    "localizedValue": "Microsoft.Network/virtualNetworks/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-09T08:08:09.3613294Z",
+                "submissionTimestamp": "2018-03-09T08:08:30.096252Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "598dceda-eda7-43e5-9b29-ef26217201d4"
+}

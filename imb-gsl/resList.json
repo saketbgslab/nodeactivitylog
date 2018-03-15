@@ -1,0 +1,354 @@
+[
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5",
+        "name": "Jitendra_OsDisk_1_1d5209551eba41e3ac80bae4739a3bb5",
+        "type": "Microsoft.Compute/disks",
+        "location": "eastus",
+        "managedBy": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Compute/virtualMachines/Jitendra",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_5fcd37e6eb5d40d1bdc51ad4697d6a64",
+        "name": "Jitendra_OsDisk_1_5fcd37e6eb5d40d1bdc51ad4697d6a64",
+        "type": "Microsoft.Compute/disks",
+        "location": "eastus",
+        "managedBy": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Compute/virtualMachines/Jitendra",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/Jitendra_OsDisk_1_c65c2fea8d5c4c8a82cffe957b03b628",
+        "name": "Jitendra_OsDisk_1_c65c2fea8d5c4c8a82cffe957b03b628",
+        "type": "Microsoft.Compute/disks",
+        "location": "eastus",
+        "managedBy": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Compute/virtualMachines/Jitendra",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-BROKER-PROJECT/providers/Microsoft.Compute/disks/pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79",
+        "name": "pankajcentos_OsDisk_1_76c3a556269a4cba8e9dd0151f5ebd79",
+        "type": "Microsoft.Compute/disks",
+        "location": "eastus",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Compute/virtualMachines/Jitendra",
+        "name": "Jitendra",
+        "type": "Microsoft.Compute/virtualMachines",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/jitendra326",
+        "name": "jitendra326",
+        "type": "Microsoft.Network/networkInterfaces",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/jitendra666",
+        "name": "jitendra666",
+        "type": "Microsoft.Network/networkInterfaces",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/jitendra882",
+        "name": "jitendra882",
+        "type": "Microsoft.Network/networkInterfaces",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491",
+        "name": "pankajcentos491",
+        "type": "Microsoft.Network/networkInterfaces",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/AtikshaAppEnv-NSG",
+        "name": "AtikshaAppEnv-NSG",
+        "type": "Microsoft.Network/networkSecurityGroups",
+        "location": "westus",
+        "tags": {
+            "displayName": "NSG - Subnet"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/hgfhgf-nsg",
+        "name": "hgfhgf-nsg",
+        "type": "Microsoft.Network/networkSecurityGroups",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/Jitendra-nsg",
+        "name": "Jitendra-nsg",
+        "type": "Microsoft.Network/networkSecurityGroups",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/Jitendransg569",
+        "name": "Jitendransg569",
+        "type": "Microsoft.Network/networkSecurityGroups",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/Jitendransg760",
+        "name": "Jitendransg760",
+        "type": "Microsoft.Network/networkSecurityGroups",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/pankajcentos-nsg",
+        "name": "pankajcentos-nsg",
+        "type": "Microsoft.Network/networkSecurityGroups",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/hgfhgf-ip",
+        "name": "hgfhgf-ip",
+        "type": "Microsoft.Network/publicIPAddresses",
+        "location": "eastus",
+        "sku": {
+            "name": "Basic"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendra-ip",
+        "name": "Jitendra-ip",
+        "type": "Microsoft.Network/publicIPAddresses",
+        "location": "eastus",
+        "sku": {
+            "name": "Basic"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendraip259",
+        "name": "Jitendraip259",
+        "type": "Microsoft.Network/publicIPAddresses",
+        "location": "eastus",
+        "sku": {
+            "name": "Basic"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/Jitendraip349",
+        "name": "Jitendraip349",
+        "type": "Microsoft.Network/publicIPAddresses",
+        "location": "eastus",
+        "sku": {
+            "name": "Basic"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/pankajcentos-ip",
+        "name": "pankajcentos-ip",
+        "type": "Microsoft.Network/publicIPAddresses",
+        "location": "eastus",
+        "sku": {
+            "name": "Basic"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/routeTables/AtikshaAppEnv-Route-Table",
+        "name": "AtikshaAppEnv-Route-Table",
+        "type": "Microsoft.Network/routeTables",
+        "location": "westus",
+        "tags": {
+            "displayName": "UDR - Subnet"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/AtikshaAppEnv-vnet",
+        "name": "AtikshaAppEnv-vnet",
+        "type": "Microsoft.Network/virtualNetworks",
+        "location": "westus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/cache999",
+        "name": "cache999",
+        "type": "Microsoft.Network/virtualNetworks",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/jitendra",
+        "name": "jitendra",
+        "type": "Microsoft.Network/virtualNetworks",
+        "location": "eastus"
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject104",
+        "name": "ibmgslbrokerproject104",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject131",
+        "name": "ibmgslbrokerproject131",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject155",
+        "name": "ibmgslbrokerproject155",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject166",
+        "name": "ibmgslbrokerproject166",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject219",
+        "name": "ibmgslbrokerproject219",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject269",
+        "name": "ibmgslbrokerproject269",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject310",
+        "name": "ibmgslbrokerproject310",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject455",
+        "name": "ibmgslbrokerproject455",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject471",
+        "name": "ibmgslbrokerproject471",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject861",
+        "name": "ibmgslbrokerproject861",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject873",
+        "name": "ibmgslbrokerproject873",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject892",
+        "name": "ibmgslbrokerproject892",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject919",
+        "name": "ibmgslbrokerproject919",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    },
+    {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Storage/storageAccounts/ibmgslbrokerproject924",
+        "name": "ibmgslbrokerproject924",
+        "type": "Microsoft.Storage/storageAccounts",
+        "location": "eastus",
+        "tags": {},
+        "kind": "Storage",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    }
+]

@@ -1,0 +1,219 @@
+{
+    "eventDataCollection": {
+        "value": [
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521091026",
+                    "nbf": "1521091026",
+                    "exp": "1521094926",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYLCulVm6bUN+XNX1uT8aY1m3r/CMeKMgdiLcx2x+8fFHbyQA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Pankaj Deshmukh",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "0fa6f49a-16fa-4ebd-b848-df7842028f99",
+                    "puid": "10037FFEA920732E",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "ZY-fVlx45YASZJC3_Ipx2ahB0KgGjMDos9FMu_8tsts",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                    "uti": "82_dMqwPYEO75-8N659GAA",
+                    "ver": "1.0"
+                },
+                "properties": {},
+                "authorization": {
+                    "action": "Microsoft.Network/networkInterfaces/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491"
+                },
+                "eventChannels": "Operation",
+                "caller": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "56da5fd4-b89a-4677-a9ab-495b166ff8b3",
+                "correlationId": "1ae1e443-4275-4be4-b6a5-8c9cc0f8c744",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491",
+                "operationId": "936a8226-9512-4f90-8bc4-1cae4923bada",
+                "operationName": {
+                    "value": "Microsoft.Network/networkInterfaces/write",
+                    "localizedValue": "Microsoft.Network/networkInterfaces/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-15T05:48:22.9997142Z",
+                "submissionTimestamp": "2018-03-15T05:48:39.9457997Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521091026",
+                    "nbf": "1521091026",
+                    "exp": "1521094926",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYLCulVm6bUN+XNX1uT8aY1m3r/CMeKMgdiLcx2x+8fFHbyQA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Pankaj Deshmukh",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "0fa6f49a-16fa-4ebd-b848-df7842028f99",
+                    "puid": "10037FFEA920732E",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "ZY-fVlx45YASZJC3_Ipx2ahB0KgGjMDos9FMu_8tsts",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                    "uti": "82_dMqwPYEO75-8N659GAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "statusCode": "Created",
+                    "serviceRequestId": "452e775d-8a66-481a-b087-89f5a9dd67df",
+                    "responseBody": "{\"name\":\"pankajcentos491\",\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491\",\"etag\":\"W/\\\"cbf521ea-836d-49d2-993a-b6f172b74aec\\\"\",\"location\":\"eastus\",\"properties\":{\"provisioningState\":\"Succeeded\",\"resourceGuid\":\"efcfd879-c4f4-4660-9360-767fafc54b17\",\"ipConfigurations\":[{\"name\":\"ipconfig1\",\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491/ipConfigurations/ipconfig1\",\"etag\":\"W/\\\"cbf521ea-836d-49d2-993a-b6f172b74aec\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"privateIPAddress\":\"10.1.0.4\",\"privateIPAllocationMethod\":\"Dynamic\",\"publicIPAddress\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIPAddresses/pankajcentos-ip\"},\"subnet\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/cache999/subnets/cache999\"},\"primary\":true,\"privateIPAddressVersion\":\"IPv4\"}}],\"dnsSettings\":{\"dnsServers\":[],\"appliedDnsServers\":[],\"internalDomainNameSuffix\":\"33xzjpmxpizutd5r01qdozxibd.bx.internal.cloudapp.net\"},\"enableAcceleratedNetworking\":false,\"enableIPForwarding\":false,\"networkSecurityGroup\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/pankajcentos-nsg\"}},\"type\":\"Microsoft.Network/networkInterfaces\"}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/networkInterfaces/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491"
+                },
+                "eventChannels": "Operation",
+                "caller": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "9fba34ad-76d5-40d4-8752-0927daedeb9b",
+                "correlationId": "1ae1e443-4275-4be4-b6a5-8c9cc0f8c744",
+                "eventName": {
+                    "value": "EndRequest",
+                    "localizedValue": "End request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "37ebd08b-0519-4a41-b615-04c392255101",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491",
+                "operationId": "27a9c11c-c6c7-4d5a-91cd-7a7172aab3fc",
+                "operationName": {
+                    "value": "Microsoft.Network/networkInterfaces/write",
+                    "localizedValue": "Microsoft.Network/networkInterfaces/write"
+                },
+                "status": {
+                    "value": "Succeeded",
+                    "localizedValue": "Succeeded"
+                },
+                "subStatus": {
+                    "value": "Created",
+                    "localizedValue": "Created (HTTP Status Code: 201)"
+                },
+                "eventTimestamp": "2018-03-15T05:38:21.2249082Z",
+                "submissionTimestamp": "2018-03-15T05:38:40.0939176Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            },
+            {
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/0a862cff-4880-4f48-9eeb-227ac6005671/",
+                    "iat": "1521091026",
+                    "nbf": "1521091026",
+                    "exp": "1521094926",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "Y2NgYLCulVm6bUN+XNX1uT8aY1m3r/CMeKMgdiLcx2x+8fFHbyQA",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "e_exp": "262800",
+                    "groups": "aae3f994-cbf6-4ff0-873c-63b644a955b0",
+                    "ipaddr": "115.113.153.34",
+                    "name": "Pankaj Deshmukh",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "0fa6f49a-16fa-4ebd-b848-df7842028f99",
+                    "puid": "10037FFEA920732E",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "ZY-fVlx45YASZJC3_Ipx2ahB0KgGjMDos9FMu_8tsts",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "0a862cff-4880-4f48-9eeb-227ac6005671",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                    "uti": "82_dMqwPYEO75-8N659GAA",
+                    "ver": "1.0"
+                },
+                "properties": {
+                    "requestbody": "{\"location\":\"eastus\",\"properties\":{\"ipConfigurations\":[{\"name\":\"ipconfig1\",\"properties\":{\"subnet\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/cache999/subnets/cache999\"},\"privateIPAllocationMethod\":\"Dynamic\",\"publicIpAddress\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/publicIpAddresses/pankajcentos-ip\"}}}],\"networkSecurityGroup\":{\"id\":\"/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkSecurityGroups/pankajcentos-nsg\"}}}"
+                },
+                "authorization": {
+                    "action": "Microsoft.Network/networkInterfaces/write",
+                    "scope": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491"
+                },
+                "eventChannels": "Operation",
+                "caller": "pankaj.deshmukh@idmsubsgslab.onmicrosoft.com",
+                "eventDataId": "4590292e-17f3-43d0-b1b5-d1105a9290a5",
+                "correlationId": "1ae1e443-4275-4be4-b6a5-8c9cc0f8c744",
+                "eventName": {
+                    "value": "BeginRequest",
+                    "localizedValue": "Begin request"
+                },
+                "eventSource": {
+                    "value": "Administrative",
+                    "localizedValue": "Administrative"
+                },
+                "httpRequest": {
+                    "clientRequestId": "37ebd08b-0519-4a41-b615-04c392255101",
+                    "clientIpAddress": "115.113.153.34",
+                    "method": "PUT"
+                },
+                "level": "Informational",
+                "resourceGroupName": "IBM-GSL-Broker-Project",
+                "resourceProviderName": {
+                    "value": "Microsoft.Network",
+                    "localizedValue": "Microsoft.Network"
+                },
+                "resourceUri": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourcegroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/networkInterfaces/pankajcentos491",
+                "operationId": "27a9c11c-c6c7-4d5a-91cd-7a7172aab3fc",
+                "operationName": {
+                    "value": "Microsoft.Network/networkInterfaces/write",
+                    "localizedValue": "Microsoft.Network/networkInterfaces/write"
+                },
+                "status": {
+                    "value": "Started",
+                    "localizedValue": "Started"
+                },
+                "subStatus": {},
+                "eventTimestamp": "2018-03-15T05:38:16.9261757Z",
+                "submissionTimestamp": "2018-03-15T05:38:30.0901773Z",
+                "subscriptionId": "7c326b71-55e3-4ca7-8372-8227e1354e4c"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "requestId": "63281e0c-257a-4115-9586-455225ef4131"
+}
