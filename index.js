@@ -42,6 +42,7 @@ function startExec(err, credentials) {
         if(err) {return console.log()}
        // console.log('\n\n\t res ' + JSON.stringify(result, 0,4) );
         fs.writeFileSync('./imb-gsl/resList.json', JSON.stringify(result, 0,4), 'utf-8');
+        resList = result;
         getResourceLogs(result);
         
     });
@@ -75,21 +76,23 @@ function getResourceLogs(resList){
 }
 
 function parseAfile(){
-    var eventLogs = JSON.parse(fs.readFileSync('./imb-gsl/cache999.json', 'utf-8'));
 
-
-    var resEventsArray = eventLogs['eventDataCollection']['value']
-    resEventsArray = resEventsArray.reverse();
-
-    resEventsArray.forEach(function(element) {
-        if(element['operationName']['value'].endsWith("write")  && element['status']['value'] === 'Accepted'){
-            console.log('\n\t ' + element['caller']+ '\t' + element['status']['value'] + '\t' + element['operationId'] )
-            break;
+    resList.forEach(function(item){
+        var eventLogs = JSON.parse(fs.readFileSync('./imb-gsl/'+ item['name'] +'.json', 'utf-8'));
+        var resEventsArray = eventLogs['eventDataCollection']['value']
+        resEventsArray = resEventsArray.reverse();
+        var leng = resEventsArray.length;
+        for(var i = 0; i < leng;i++){
+            element = resEventsArray[i];
+            if(element['operationName']['value'].endsWith("write")  && element['status']['value'] === 'Accepted'){
+                var resURI = element['resourceUri'];
+                var resName = resURI.substring(resURI.lastIndexOf('/') + 1);
+                console.log('\n' + element['caller']+ ' | ' + element['correlationId'] + ' | ' + resName+' | ' + element['eventTimestamp']  )
+                break;
+            }
         }
-      });
+    });
     
-
-
     
 }
 

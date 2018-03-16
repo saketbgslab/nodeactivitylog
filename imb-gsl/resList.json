@@ -178,6 +178,12 @@
         "location": "eastus"
     },
     {
+        "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/IBM-GSL-Broker-Project-vnet",
+        "name": "IBM-GSL-Broker-Project-vnet",
+        "type": "Microsoft.Network/virtualNetworks",
+        "location": "eastasia"
+    },
+    {
         "id": "/subscriptions/7c326b71-55e3-4ca7-8372-8227e1354e4c/resourceGroups/IBM-GSL-Broker-Project/providers/Microsoft.Network/virtualNetworks/jitendra",
         "name": "jitendra",
         "type": "Microsoft.Network/virtualNetworks",
